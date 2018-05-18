@@ -1,0 +1,431 @@
+{
+	"ShowAnimations": true,
+	"AssetsPath": "data/assets/",
+	"PHPPath": "data/player/evalu.php",
+	"ShowSimHotspots": true,
+	"ReadableData": false,
+	"Strings": {
+		"AppTitle": "Conocer",
+		"WebAppTitle": "Conocer",
+		"AppCopyright": "CONSEJO NACIONAL DE NORMALIZACIÓN Y CERTIFICACIÓN DE COMPETENCIAS LABORALES, MÉXICO - ALGUNOS DERECHOS RESERVADOS © 2014",
+		"AppClose": "¿Esta usted seguro de cerrar la aplicación?",
+		"LoginButton": "ENTRAR >",
+		"LoginPlaceholder": "Introduzca aquí su clave de usuario (CURP)",
+		"LoginEmpty": "Por favor introduzca su clave de usuario (CURP)",
+		"LoginFail": "La clave de usuario no es válida",
+		"NextQuestion": "CONTINUAR >",
+		"EndTest": "TERMINAR >",
+		"GoToRemainingQuestions": "IR A PREGUNTAS PENDIENTES >",
+		"LoadingResources": "Cargando recursos. Por favor espere...",
+		"ConfirmAnswer": "¿Ésta es su respuesta final?",
+		"URLMismatch": "La informacíon introducida en los campos no coincide. Por favor verifique la informacion o deje ambos campos en blanco para continuar con la evaluación y resolver este apartado al final.",
+		"RemainingQuestions": "Algunas preguntas no fueron respondidas. A continuación se muestra una lista con las preguntas pendientes",
+		"RemainingQuestionsInstruction": "De clic en la pregunta pendiente que desea reponder",
+		"RemainingQuestionsSkipButton": "OMITIR LAS PREGUNTAS PENDIENTES Y TERMINAR LA EVALUACIÓN >",
+		"RemainingQuestionsSkipWarning": "¿Esta usted seguro de omitir las preguntas pendientes y terminar la evaluación?",
+		"MessageWindowOK": "ACEPTAR",
+		"MessageWindowNo": "NO",
+		"TimeEnded": "El tiempo de la evaluación a expirado. Oprima el botón ACEPTAR para guardar sus resultados.",
+		"SavingResults": "Guardando los resultados de su evaluación. Por favor espere...",
+		"SavingResultsFail": "ADVERTENCIA: No ha sido posible guardar los resultados de su evaluación en la base de datos. ¿Quiere reintentar guardar sus resultados?",
+		"FinishedMessage": "Usted ha concluido la evaluación. Por favor póngase en contacto con su evaluador.",
+		"Finished": "FINALIZAR >"
+	},
+	"Test": {
+		"ID": "EC0121",
+		"Title": "Elaboración de Proyectos de aprendizaje integrando el uso de las tecnologías de la información y comunicación",
+		"Duration": 60,
+		"Intros": [
+			{
+				"html": "intro/index.html",
+				"button": "CONTINUAR 1 >"
+			}, {
+				"html": "intro/index.html",
+				"button": "CONTINUAR 2 >"
+			}, {
+				"html": "intro/index.html",
+				"button": "CONTINUAR 3 >"
+			}, {
+				"html": "intro/index.html",
+				"button": "CONTINUAR 4 >"
+			}, {
+				"html": "intro/index.html",
+				"button": "EMPEZAR EVALUACIÓN >"
+			}
+		],
+		"Questions": [
+			{
+				"ID": "24",
+				"Text": "Una base de datos sirve para organizar la información en campos y registros, facilita almacenar y manejar grandes cantidades de información.",
+				"Instruction": "De acuerdo al párrafo anterior seleccione si es verdadero o falso",
+				"Feedback": "El candidato tiene dificultades para identificar las características generales de una base de datos",
+				"Value": 0.42,
+				"Type": "MULTICHOICE",
+				"Data": [
+					{
+						"MultiSelect": false,
+						"Answers": [
+							{
+								"Text": "Falso",
+								"Correct": false
+							}, {
+								"Text": "Verdadero",
+								"Correct": true
+							}
+						]
+					}
+				]
+			}, {
+				"ID": "0",
+				"Text": "Seleccione la opción que se refiera a las características de un CPU",
+				"Instruction": "Seleccione la respuesta correcta",
+				"Feedback": "Observaciones",
+				"Value": 1.0,
+				"Type": "MULTICHOICE",
+				"Data": {
+					"MultiSelect": false,
+					"Answers": [
+						{
+							"Text": "Procesa datos, analiza información y ejecuta instrucciones",
+							"Correct": true
+						}, {
+							"Text": "Almacena datos, registra programas y reproduce música",
+							"Correct": false
+						}, {
+							"Text": "Tiene un disco duro, cuenta con velocidad y varios puertos",
+							"Correct": false
+						}
+					]
+				}
+			}, {
+				"ID": "1",
+				"Text": "La función de un CPU es: <br><br><i>&quotEncargarse de realizar toda operación aritmético-lógica, de control y de comunicación con el resto de los componentes integrados que conforman un PC&quot</i>",
+				"Instruction": "De acuerdo al párrafo anterior seleccione si es verdadero o falso",
+				"Feedback": "Observaciones",
+				"Value": 1.0,
+				"Type": "MULTICHOICE",
+				"Data": {
+					"MultiSelect": false,
+					"Answers": [
+						{
+							"Text": "Falso",
+							"Correct": false
+						}, {
+							"Text": "Verdadero",
+							"Correct": true
+						}
+					]
+				}
+			}, {
+				"ID": "2",
+				"Text": "Seleccione 3 tipos de puertos de comunicación",
+				"Instruction": "Seleccione las respuestas correctas",
+				"Feedback": "Observaciones",
+				"Value": 1.0,
+				"Type": "MULTICHOICE",
+				"Data": {
+					"MultiSelect": true,
+					"Answers": [
+						{
+							"Text": "Whatsapp",
+							"Correct": false
+						}, {
+							"Text": "Serial",
+							"Correct": true
+						}, {
+							"Text": "Red",
+							"Correct": true
+						}, {
+							"Text": "Mouse",
+							"Correct": false
+						}, {
+							"Text": "Paralelo",
+							"Correct": true
+						}
+					]
+				}
+			}, {
+				"ID": "3",
+				"Text": "Relacione las columnas de acuerdo a los diferentes medios de almacenamiento:",
+				"Instruction": "Seleccione en cada concepto de la derecha la letra del concepto de la izquierda con el que se relaciona",
+				"Feedback": "Observaciones",
+				"Value": 1.0,
+				"Type": "MATCHING",
+				"Data": {
+					"Left": [
+						{
+							"Key": "A",
+							"Text": "Disco duro"
+						}, {
+							"Key": "B",
+							"Text": "Memoria USB"
+						}, {
+							"Key": "C",
+							"Text": "Compact disc"
+						}
+					],
+					"Right": [
+						{
+							"Key": "B",
+							"Text": "Un sistema de almacenamiento y trasporte personal de datos con diferentes capacidades"
+						}, {
+							"Key": "C",
+							"Text": "Es un medio de almacenamiento que puede albergar entre 650 a 700 MB de datos, música o documentos"
+						}, {
+							"Key": "A",
+							"Text": "Puede ser interno o externo a la PC que almacena y otorga alta velocidad de acceso a la información"
+						}
+					]
+				}
+			}, {
+				"ID": "4",
+				"Text": "Relacione los siguientes dispositivos sin son de entrada, salida o entrada/salida",
+				"Instruction": "Seleccione en cada concepto de la derecha la letra del concepto de la izquierda con el que se relaciona",
+				"Feedback": "Observaciones",
+				"Value": 1.0,
+				"Type": "MATCHING",
+				"Data": {
+					"Left": [
+						{
+							"Key": "A",
+							"Text": "Salida"
+						}, {
+							"Key": "B",
+							"Text": "Entrada"
+						}, {
+							"Key": "C",
+							"Text": "Entrada/Salida"
+						}
+					],
+					"Right": [
+						{
+							"Key": "A",
+							"Text": "Proyector"
+						}, {
+							"Key": "B",
+							"Text": "Escáner"
+						}, {
+							"Key": "B",
+							"Text": "Lector de huellas"
+						}, {
+							"Key": "B",
+							"Text": "Micrófono"
+						}, {
+							"Key": "A",
+							"Text": "Audífonos"
+						}, {
+							"Key": "C",
+							"Text": "Pantalla táctil"
+						}, {
+							"Key": "C",
+							"Text": "Pizarrón interactivo"
+						}, {
+							"Key": "B",
+							"Text": "Cámara fotográfica digital"
+						}
+					]
+				}
+			}, {
+				"ID": "5",
+				"Text": "Llena la forma x",
+				"Instruction": "Llena los campos en blanco",
+				"Feedback": "Observaciones",
+				"Value": 1.0,
+				"Type": "FILL",
+				"Data": {
+					"Image": "fill_01.jpg",
+					"BorderColor": "#3eb5c4",
+					"Fields": [
+						{
+							"X": 21,
+							"Y": 143,
+							"Width": 280,
+							"Height": 33,
+							"Multiline": false,
+							"CompareWith": ""
+						}, {
+							"X": 21,
+							"Y": 223,
+							"Width": 280,
+							"Height": 33,
+							"Multiline": false,
+							"CompareWith": ""
+						}, {
+							"X": 21,
+							"Y": 303,
+							"Width": 280,
+							"Height": 33,
+							"Multiline": false,
+							"CompareWith": ""
+						}, {
+							"X": 356,
+							"Y": 50,
+							"Width": 473,
+							"Height": 43,
+							"Multiline": false,
+							"CompareWith": ""
+						}, {
+							"X": 356,
+							"Y": 256,
+							"Width": 473,
+							"Height": 156,
+							"Multiline": true,
+							"CompareWith": ""
+						}
+					]
+				}
+			}, {
+				"ID": "6",
+				"Text": "Abre la aplicacion X",
+				"Instruction": "",
+				"Feedback": "Observaciones",
+				"Value": 1.0,
+				"Type": "SIM",
+				"Data": {
+					"Screens": [
+						{
+							"ScreenID": "0",
+							"Image": "0.jpg",
+							"Instruction": "Instrucciónes de la pantalla 1",
+							"Final": false,
+							"Items": [
+								{
+									"Type": "BUTTON",
+									"Data": {
+										"X": 257,
+										"Y": 120,
+										"Width": 29,
+										"Height": 25,
+										"MouseButton": 1,
+										"DoubleClick": true,
+										"GotoScreenID": "1"
+									}
+								}
+							]
+						}, {
+							"ScreenID": "1",
+							"Image": "1.jpg",
+							"Instruction": "Instrucciónes de la pantalla 2",
+							"Final": false,
+							"Items": [
+								{
+									"Type": "TEXT",
+									"Data": {
+										"X": 9,
+										"Y": 96,
+										"Width": 102,
+										"Height": 16,
+										"FontSize": 12,
+										"FontColor": "#0000ff",
+										"CompareWith": "",
+										"GotoScreenID": "2"
+									}
+								}
+							]
+						}, {
+							"ScreenID": "2",
+							"Image": "2.jpg",
+							"Instruction": "Instrucciónes de la pantalla 3",
+							"Final": false,
+							"Items": [
+								{
+									"Type": "BUTTON",
+									"Data": {
+										"X": 395,
+										"Y": 93,
+										"Width": 121,
+										"Height": 52,
+										"MouseButton": 3,
+										"DoubleClick": true,
+										"GotoScreenID": "3"
+									}
+								}
+							]
+						}, {
+							"ScreenID": "3",
+							"Image": "3.jpg",
+							"Instruction": "Instrucciónes de la pantalla 4",
+							"Final": false,
+							"Items": [
+								{
+									"Type": "DRAG",
+									"Data": {
+										"Image": "3drag.png",
+										"X": 576,
+										"Y": 96,
+										"Width": 60,
+										"Height": 37,
+										"TargetX": 713,
+										"TargetY": 89,
+										"TargetWidth": 56,
+										"TargetHeight": 56,
+										"MouseButton": 1,
+										"GotoScreenID": "4"
+									}
+								}
+							]
+						}, {
+							"ScreenID": "4",
+							"Image": "4.jpg",
+							"Instruction": "Instrucciónes de la pantalla 5",
+							"Final": true,
+							"Items": []
+					}
+				]
+			}
+		}, {
+			"ID": "7",
+			"Text": "A continuación encontrará las instrucciones que deberá seguir para la subida de sus evidencias. Consúltelas antes de iniciar su evaluación ya que solo contará con un intento de ingreso a la plataforma para la conclusión de su evaluación.<br><br><b>Instrucciones para la subida de videos:</b><ol><li>Antes de la carga, asegúrese de utilizar uno de los siguientes formatos de video: .MOV, .MPEG4, .AVI, .WMV, .MPEGPS, .FLV, 3GPP, WebM.  En caso de usar otro formato de archivo, podrá apoyarse de la herramienta de Youtube para obtener información sobre cómo convertir su video a estos formatos (<a href='https://support.google.com/youtube' target='_blank'>https://support.google.com/youtube</a>).</li><br><li>Para el uso del canal de Youtube requiere de una cuenta de correo electrónico de Gmail por lo que si no tiene una, primero regístrese en: <a href='http://mail.google.com' target='_blank'>http://mail.google.com</a></li><br><li>Si ya tiene una cuenta de correo electrónico en Gmail, omita el paso anterior.</li><br><li>En la barra de direcciones del explorador de internet registre: <a href='http://www.youtube.com' target='_blank'>http://www.youtube.com</a></li><br><li>De clic en el botón <b>Subir un video</b> situado en la parte superior de la página.</li><br><li>Antes de empezar a subir el video, seleccione la configuración de privacidad del video, para este caso seleccione: <b>Público</b></li><br><li>Seleccione el video que desee subir desde su computadora.</li><br><li>Mientras sube el video, edite la información básica y la configuración avanzada del video: título, descripción, etiquetas.</li><br><li>Haga clic en <b>Publicar</b> para terminar de subir su video a Youtube.</li><br><li>Una vez que el video se termine de subir, aparecerá la liga mediante la cual se podrá visualizar el mismo. Esta liga deberá escribirla o copiarla y pegarla en los campos de texto de abajo.</li></ol>",
+			"Instruction": "Intruduzca el vinculo absoluto a su video en YouTube en ambos campos",
+			"Feedback": "Este reactivo tiene que ser calificado por el evaluador",
+			"Value": 1.0,
+			"Valued": true,
+			"Hidden": false,
+			"Type": "URL",
+			"Data": {
+				"Text": "Escriba aquí el vínculo a su video en YouTube",
+				"Verify": "Escriba nuevamente aquí el vínculo a su video en YouTube como verificación"
+			}
+		}, {
+			"ID": "8",
+			"Text": "Caso cuando es evaluado pero no se presentan los campos",
+			"Instruction": "Intruduzca el vinculo absoluto a su video en YouTube en ambos campos",
+			"Feedback": "Este reactivo tiene que ser calificado por el evaluador",
+			"Value": 1.0,
+			"Valued": true,
+			"Hidden": true,
+			"Type": "URL",
+			"Data": {
+				"Text": "",
+				"Verify": ""
+			}
+		}, {
+			"ID": "9",
+			"Text": "Caso cuando no es evaluado pero si se presentan los campos",
+			"Instruction": "Intruduzca el vinculo absoluto a su video en YouTube en ambos campos",
+			"Feedback": "Este reactivo no tiene ponderacion",
+			"Value": 0.0,
+			"Valued": false,
+			"Hidden": false,
+			"Type": "URL",
+			"Data": {
+				"Text": "Escriba aquí el vínculo a su video en YouTube",
+				"Verify": "Escriba nuevamente aquí el vínculo a su video en YouTube como verificación"
+			}
+		}, {
+			"ID": "10",
+			"Text": "Caso cuando no es evaluado y no se presentan los campos",
+			"Instruction": "Intruduzca el vinculo absoluto a su video en YouTube en ambos campos",
+			"Feedback": "Este reactivo no tiene ponderacion",
+			"Value": 0.0,
+			"Valued": false,
+			"Hidden": true,
+			"Type": "URL",
+			"Data": {
+				"Text": "",
+				"Verify": ""
+			}
+		}
+	]
+}
+}

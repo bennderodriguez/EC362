@@ -1,0 +1,89 @@
+
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<!-- favicon -->
+		<link rel="shortcut icon" href="favicon.ico">
+		<!-- iOS Web App -->
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-title" content="">
+		<link rel="apple-touch-icon" sizes="76x76" href="data/player/touch-icon-ipad.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="data/player/touch-icon-ipad-retina.png">		
+		<!-- CSS -->
+		<link rel="stylesheet" href="data/player/evalu.css">
+		<!-- jQuery -->
+		<script src="data/player/jquery.js"></script>
+		<!-- Evalu Player -->
+		<script src="data/player/data.js?v=1"></script>
+		<script src="data/player/evalu.js?v=1"></script>
+	</head>
+	<body>
+		<!-- Evalu Layout -->
+		<div id="container">
+			<div id="splash">
+				<div id="splash_icon"></div>
+				<div id="splash_text">Cargando...</div>
+			</div>
+			<div id="home">
+				<div id="home_header">
+					<div id="home_header_container">
+						<div id="home_header_container_image"></div>
+						<div id="home_header_container_logo"></div>
+						<div id="home_header_container_title">
+							<div id="home_header_container_title_text"></div>
+							<div id="home_header_container_title_id"></div>
+						</div>
+						<div id="home_login">
+							<div id="home_login_fail"></div>
+							<input type="text" class="input" id="home_login_login" autocomplete="off" placeholder="">
+							<p></p>
+							<div id="home_login_submit" class="button"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="main">
+				<div id="main_header">
+					<div id="main_header_logo">
+						<div id="main_header_logo_icon"></div>
+					</div>
+					<div id="main_header_title"></div>
+					<div id="main_header_time" class="main_header_widgets">
+						<div class="main_header_widgets_separator"></div>
+						<div id="main_header_time_icon" class="main_header_widgets_icon"></div>
+						<div id="main_header_time_text" class="main_header_widgets_text"></div>
+					</div>
+					<div id="main_header_questions" class="main_header_widgets">
+						<div class="main_header_widgets_separator"></div>
+						<div id="main_header_questions_icon" class="main_header_widgets_icon"></div>
+						<div id="main_header_questions_text" class="main_header_widgets_text"></div>
+					</div>
+				</div>
+				<div id="main_content"></div>
+				<div id="main_footer"></div>			
+			</div>
+			<div id="modal">
+				<div id="modal_back"></div>
+				<div id="modal_window">
+					<div id="modal_window_header">
+						<div id="modal_window_header_icon"></div>
+					</div>
+					<div id="modal_window_message">
+						<div id="modal_window_message_box">
+							<span></span>
+							<div id="modal_window_message_box_text"></div>
+						</div>
+						<div id="modal_window_message_loader">
+							<div id="modal_window_message_loader_bar"></div>
+						</div>					
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+
+<!-- End of File -->

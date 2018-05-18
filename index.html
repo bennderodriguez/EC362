@@ -1,0 +1,36 @@
+
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Conocer</title>
+		<!-- favicon -->
+		<link rel="shortcut icon" href="favicon.ico">
+		<!-- iOS Web App -->
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-title" content="Conocer">
+		<link rel="apple-touch-icon" sizes="76x76" href="data/player/touch-icon-ipad.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="data/player/touch-icon-ipad-retina.png">		
+		<!-- CSS -->
+		<link rel="stylesheet" href="data/player/evalu.css">
+		<!-- Evalu Player Launcher -->
+		<script>
+			function LaunchEvalu(){
+				var evaluWin = window.open('evalu.html','EVALU', 'left=0, top=0, width=' + screen.availWidth + ', height=' + screen.availHeight + ', toolbar=no, menubar=no, scrollbars=no, location=no, resizable=yes, directories=no, status=no');
+			}
+		</script>
+		
+	</head>
+	<body>
+		<div id="modal_window">
+			<div id="modal_window_header"></div>
+			<div id="modal_window_message">
+				<div id="modal_window_message_launcher_image"></div>
+				<div class="button button_modal_window" onClick="LaunchEvalu()">ABRIR APLICACIÓN ></div>
+			</div>
+		</div>
+	</body>
+</html>
+
+<!-- End of File -->
